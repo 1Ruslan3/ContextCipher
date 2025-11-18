@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ContextCipher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ContextCipher.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ContextCipher.AssemblyInfo.cs
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ContextCipher.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ContextCipher.sourcelink.json
+C:\Users\user\Desktop\Context\ContextCipher\bin\Release\net9.0\ContextCipher.deps.json
+C:\Users\user\Desktop\Context\ContextCipher\bin\Release\net9.0\ContextCipher.dll
+C:\Users\user\Desktop\Context\ContextCipher\bin\Release\net9.0\ContextCipher.pdb
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ContextCipher.dll
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\refint\ContextCipher.dll
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ContextCipher.pdb
+C:\Users\user\Desktop\Context\ContextCipher\obj\Release\net9.0\ref\ContextCipher.dll

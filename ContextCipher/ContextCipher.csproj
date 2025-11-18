@@ -1,8 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net9.0</TargetFramework>
+     <PackageId>ContextCiphet</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>RUSLAN13K</Authors>
+    <Description>Encryption context</Description>
+    <PackageTags>Encryption Description</PackageTags>
+    <RepositoryUrl>https://github.com/1Ruslan3/ContextCipher.git</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

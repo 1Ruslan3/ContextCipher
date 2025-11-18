@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ContextCiphet</id>
+    <version>1.0.0</version>
+    <authors>RUSLAN13K</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Encryption context</description>
+    <tags>Encryption Description</tags>
+    <repository type="git" url="https://github.com/1Ruslan3/ContextCipher.git" commit="68bfc6cd9ec6d0f41a6b88e50be0cefcdb2a3f41" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\user\Desktop\Context\ContextCipher\bin\Release\net9.0\ContextCipher.dll" target="lib\net9.0\ContextCipher.dll" />
+  </files>
+</package>
