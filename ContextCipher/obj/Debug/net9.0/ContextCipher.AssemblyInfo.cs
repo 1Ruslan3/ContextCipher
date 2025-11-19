@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Encryption context")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68bfc6cd9ec6d0f41a6b88e50be0cefcdb2a3f41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e219cdcb11ce13ba812a80853e8dcd281de16c0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContextCipher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContextCipher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

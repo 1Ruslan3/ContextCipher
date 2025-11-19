@@ -13,6 +13,13 @@ namespace ContextCipher
 
         public ModeWork(int blockSize, byte[] iv)
         {
+            if (blockSize <= 0) 
+                throw new ArgumentOutOfRangeException(nameof(blockSize));
+            if (iv == null) 
+                throw new ArgumentNullException(nameof(iv));
+            if (iv.Length == 0) 
+                throw new ArgumentException("IV length must be > 0", nameof(iv));
+
             _blockSize = blockSize;
             _iv = (byte[])iv.Clone();
 
@@ -25,9 +32,21 @@ namespace ContextCipher
             InitEncryptActions();
             InitDecryptActions();
         }
-
+        
         public void Reset()
         {
+            if (_iv == null)
+                throw new InvalidOperationException("IV is null.");
+        
+            if (_iv.Length != _blockSize)
+                throw new ArgumentException($"IV length {_iv.Length} must equal block size {_blockSize}.");
+        
+            if (_prev == null || _prev.Length != _blockSize)
+                _prev = new byte[_blockSize];
+        
+            if (_counter == null || _counter.Length != _blockSize)
+                _counter = new byte[_blockSize];
+        
             Buffer.BlockCopy(_iv, 0, _prev, 0, _blockSize);
             Buffer.BlockCopy(_iv, 0, _counter, 0, _blockSize);
         }

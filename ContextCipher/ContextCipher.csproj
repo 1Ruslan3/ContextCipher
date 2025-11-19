@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>net9.0</TargetFramework>
-     <PackageId>ContextCiphet</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>ContextCiphet</PackageId>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>RUSLAN13K</Authors>
     <Description>Encryption context</Description>
     <PackageTags>Encryption Description</PackageTags>
